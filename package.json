@@ -1,0 +1,26 @@
+{
+  "name": "bmw-cars-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd backend && uvicorn main:app --reload --port 5000",
+    "client": "cd frontend && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitatscu/bmw-cars-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rohitatscu/bmw-cars-app/issues"
+  },
+  "homepage": "https://github.com/rohitatscu/bmw-cars-app#readme",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
