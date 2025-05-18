@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+  }
+  
+  .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .car-card {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
